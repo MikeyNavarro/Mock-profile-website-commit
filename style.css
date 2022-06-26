@@ -1,0 +1,280 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Balsamiq Sans", cursive;
+}
+
+.flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.flex2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Start NavBar */
+
+.navcontainer {
+  background-color: black;
+  padding: 0.5rem 0;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.header {
+  width: 735px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.list {
+  list-style-type: none;
+}
+
+#profile {
+  font-size: 40px;
+}
+
+.button {
+  background-color: rgb(23, 162, 184);
+  color: white;
+  border: none;
+  padding: 8px;
+  box-shadow: 0 4px rgb(18, 117, 133);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: rgb(23, 162, 184);
+  box-shadow: 0 2px rgb(12, 86, 97);
+  transform: translateY(4px);
+}
+
+button:active {
+  transform: translateY(4px);
+}
+
+.mainContainer {
+  width: 735px;
+  margin: 0 auto;
+}
+
+.leftColumn {
+  flex: 2;
+}
+
+.rightColumn {
+  flex: 1;
+}
+
+/* Start Left Column */
+
+.blueheader {
+  background-color: rgb(23, 162, 184);
+  border: 3px solid rgb(23, 162, 184);
+}
+
+.jane {
+  width: 92px;
+  border-radius: 50%;
+  position: relative;
+  top: 52px;
+  left: 27px;
+  border: 3px solid white;
+}
+
+.whiteMain {
+  background-color: white;
+  border: 3px solid rgb(204, 204, 204);
+  border-top: none;
+  align-items: start;
+  padding-left: 36px;
+  padding-top: 50px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.whiteMain > p {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.map {
+  gap: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.map > img {
+  width: 10px;
+}
+
+.gear {
+  width: 13px;
+}
+
+.educationContainer {
+  margin-top: 30px;
+}
+
+.educationheader {
+  padding: 10px;
+  background-color: rgb(51, 51, 51);
+  border: 3px solid rgb(51, 51, 51);
+}
+
+.headerEd {
+  color: white;
+  margin-left: 20px;
+}
+
+.mainContent {
+  background-color: white;
+  border: 3px solid rgb(204, 204, 204);
+  border-top: none;
+  padding-left: 36px;
+  padding-top: 10px;
+}
+
+.h4maincontent {
+  margin-top: 10px;
+}
+.date {
+  color: rgb(204, 204, 204);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Start Right Column */
+
+.rightColumnWidth {
+  width: 240px;
+  margin-left: auto;
+}
+
+.requestContainer {
+  margin-bottom: 25px;
+}
+
+.requestHeader {
+  background-color: rgb(51, 51, 51);
+  border: 2px solid rgb(51, 51, 51);
+  color: white;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.button2 {
+  background-color: rgb(204, 204, 204);
+  border: none;
+  color: black;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+
+.button3 {
+  background-color: rgb(204, 204, 204);
+  border: none;
+  color: black;
+  padding: 10px;
+  width: 64px;
+  border-radius: 50%;
+  position: relative;
+  top: 50%;
+}
+
+/* 👁👄👁 I adapted this code from stackOverflow */
+
+.moveProfile:hover {
+  cursor: pointer;
+  -webkit-animation: mover 2s infinite alternate;
+  animation: mover 2s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+
+  /* 👁👄👁 */
+}
+.requestH4 {
+  color: white;
+}
+
+.requestMain {
+  background-color: white;
+  border: 2px solid rgb(204, 204, 204);
+  border-top: none;
+  padding-left: 10px;
+  padding-top: 15px;
+  gap: 0;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.request1 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+div > img {
+  width: 35px;
+  border-radius: 50%;
+}
+
+.profilePic {
+  border: 1px solid black;
+}
+
+.request2 > img {
+  width: 35px;
+}
+
+.todd {
+  border-radius: 50%;
+}
+.connectionHeader {
+  padding: 10px;
+  background-color: rgb(51, 51, 51);
+  border: 2px solid rgb(51, 51, 51);
+}
+
+.connectionMain {
+  background-color: white;
+  border: 2px solid rgb(204, 204, 204);
+  border-top: none;
+  border-bottom: none;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.connectionFooter {
+  background-color: white;
+  border: 2px solid rgb(204, 204, 204);
+  border-top: none;
+  border-top: 3px solid rgb(204, 204, 204);
+  padding: 15px;
+}
